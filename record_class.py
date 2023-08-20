@@ -12,7 +12,7 @@ class Record():
     def add_phone(self, phone: Phone):
         for i in self.phones:
             if i == phone:
-                print('Phone already is in Address Book') # якщо телефон вже є в списку
+                print('Phone is already in Address Book') # якщо телефон вже є в списку
                 return
         self.phones.append(phone)  # якщо телефона в списку немає, додамо його в список
         print('Phone was added')
